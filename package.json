@@ -1,0 +1,24 @@
+{
+  "name": "mastermindgame",
+  "version": "1.0.0",
+  "description": "This is a mastermind game but mostly focused on the backend.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iovannysm/MastermindGame.git"
+  },
+  "author": "Iovanny Arroyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iovannysm/MastermindGame/issues"
+  },
+  "homepage": "https://github.com/Iovannysm/MastermindGame#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
