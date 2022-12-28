@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a mastermind game but mostly focused on the backend.",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Iovannysm/MastermindGame#readme",
   "devDependencies": {
     "@types/node": "^18.11.18"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
   }
 }

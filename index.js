@@ -1,3 +1,5 @@
+let prompt = require('prompt-sync')();
+
 const api_url = "https://api.random.org/json-rpc/2/invoke";
 async function randomNumber() {
     const response = await fetch(api_url, {
@@ -21,14 +23,9 @@ async function randomNumber() {
     const data = await response.json();
     let randomNum = data.result.random.data;
     
-    console.log(randomNum[0]);
-    console.log(randomNum[1]);
-    console.log(randomNum[2]);
-    console.log(randomNum[3]);
+    console.log(randomNum);
 }
 
 randomNumber();
 
 
-
-   
