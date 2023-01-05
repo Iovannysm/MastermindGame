@@ -1,26 +1,26 @@
 # MastermindGame
 
-Do a npm init to install node to be able to install the dependencies:
+Do a   npm init   to install node to be able to install the dependencies
 
-Do a npm install in the terminal to install the dependencies:
+Do a   npm install   in the terminal to install the dependencies
 
 To play the game: 
 
-In the terminal run node index.js
+In the terminal run   node index.js
 
-It will log the rules and prompt you to input the first number;
+It will log the rules and prompt you to input the first number
 
 # Thought Process
 When I started to begin to code this game, My initial thought was to figure the first step,
 It was to brake the making of the game into smaller to do's
 
-1: I started to figure out how to use the API t generate a random 4 number combination and store it in a variable.
+        1: I started to figure out how to use the API t generate a random 4 number combination and store it in a variable.
 
-2: Create a a way to prompt the player and store the input in a array.
+        2: Create a a way to prompt the player and store the input in a array.
 
-3: Use the input array and the random number array to check if they were the same number or different.
+        3: Use the input array and the random number array to check if they were the same number or different.
 
-4: Return dialog to the player based on the input to gide them in checking if they solve the combination or they need to try again.
+        4: Return dialog to the player based on the input to gide them in checking if they solve the combination or they need to try again.
 
 
 There is a lot to do to make this game more enjoyable to the player so I made a To Do list with what I think it can make a better experience.
